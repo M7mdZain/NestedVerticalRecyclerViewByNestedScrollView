@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         outerRecyclerView.setLayoutManager(new LinearLayoutManager(this) {
             @Override
             public boolean canScrollVertically() {
-                return false;
+                return false; // Disable scrolling in Outer RecyclerView
             }
         });
 
